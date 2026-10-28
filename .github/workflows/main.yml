@@ -1,4 +1,4 @@
-name: "Dopamine: build and upload"
+name: "Bettermine: build and upload"
 
 on:
   push:
@@ -103,6 +103,6 @@ jobs:
         id: dopamine-latest-upload
         uses: actions/upload-artifact@main
         with:
-          name: Dopamine
+          name: Bettermine
           path: |
             ${{ github.workspace }}/Application/Dopamine.ipa
